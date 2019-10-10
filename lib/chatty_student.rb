@@ -7,8 +7,10 @@ class ChattyStudent < Student
   
   
   def raise_hand
-    super.
-    puts 
+    super.times do |x|
+      x * 10
+    end
+   # puts 
   end
   
   
